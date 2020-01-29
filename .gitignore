@@ -1,0 +1,5 @@
+.DS_Store
+*.pyc
+WF_NTP.egg-info
+sample_data/test*
+sample_data/N2-2_2019-07-29-133409-0000.avi

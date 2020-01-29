@@ -1,0 +1,182 @@
+---------------------------------
+    Results for /Users/quentinpeter/Documents/PHD/Projects/WF-NTP/multiwormtracker/test/N2-2_2019-07-29-133409-0000-2.avi 
+---------------------------------
+
+
+-------------------------------
+
+Total particles: 744
+
+CUT-OFF tool/filters
+Max particles present at same time: 744
+
+Cut-off tool: No
+Extra filter: No
+
+-------------------------------
+
+BPM Mean: 52.62097
+BPM Standard deviation: 87.20102
+BPM Error on Mean: 3.19694
+BPM Median: 0.00000
+Bends in movie Mean: 0.39466
+Bends in movie Standard deviation: 0.65401
+Bends in movie Error on Mean: 0.02398
+Bends in movie Median: 0.00000
+Speed Mean: 0.504732
+Speed Standard deviation: 0.218411
+Speed Error on Mean: 0.008007
+Speed Median: 0.470934
+90th Percentile speed Mean: 0.836785
+90th Percentile speed Standard deviation: 0.374072
+90th Percentile speed Error on mean: 0.013714
+Dist per bend Mean: 0.071392
+Dist per bend Standard deviation: 0.048354
+Dist per bend Error on Mean: 0.001773
+Live worms: 744
+Dead worms: 0
+Total worms: 744
+Live ratio: 1.000000
+Dead ratio: 0.000000
+Live-to-dead ratio: inf
+Dead-to-live ratio: 0.000000
+Area Mean: 2.029409
+Area Standard Deviation: 0.581305
+Area Error on Mean: 0.021312
+Round ratio Mean: 0.317204
+Round ratio Standard deviation: 0.290860
+Round ratio Error on mean: 0.010663
+Eccentricity Mean: 0.929402
+Eccentricity Standard deviation: 0.052526
+Eccentricity Error on mean: 0.001926
+
+-------------------------------
+Living 
+Total particles: 744
+
+-------------------------------
+
+Living BPM Mean: 52.62097
+Living BPM Standard deviation: 87.20102
+Living BPM Error on Mean: 3.19694
+Living BPM Median: 0.00000
+Living Bends in movie Mean: 0.39466
+Living Bends in movie Standard deviation: 0.65401
+Living Bends in movie Error on Mean: 0.02398
+Living Bends in movie Median: 0.00000
+Living Speed Mean: 0.504732
+Living Speed Standard deviation: 0.218411
+Living Speed Error on Mean: 0.008007
+Living Speed Median: 0.470934
+Living 90th Percentile speed Mean: 0.836785
+Living 90th Percentile speed Standard deviation: 0.374072
+Living 90th Percentile speed Error on mean: 0.013714
+Living Dist per bend Mean: 0.071392
+Living Dist per bend Standard deviation: 0.048354
+Living Dist per bend Error on Mean: 0.001773
+Living Area Mean: 2.029409
+Living Area Standard Deviation: 0.581305
+Living Area Error on Mean: 0.021312
+Living Round ratio Mean: 0.317204
+Living Round ratio Standard deviation: 0.290860
+Living Round ratio Error on mean: 0.010663
+Living Eccentricity Mean: 0.929402
+Living Eccentricity Standard deviation: 0.052526
+Living Eccentricity Error on mean: 0.001926
+---------------------------------
+
+---------------------------------
+Stats for region: 11
+---------------------------------
+
+
+-------------------------------
+
+Total particles: 705
+
+-------------------------------
+
+BPM Mean: 51.91489
+BPM Standard deviation: 86.33528
+BPM Error on Mean: 3.25157
+BPM Median: 0.00000
+Bends in movie Mean: 0.38936
+Bends in movie Standard deviation: 0.64751
+Bends in movie Error on Mean: 0.02439
+Bends in movie Median: 0.00000
+Speed Mean: 0.509074
+Speed Standard deviation: 0.220299
+Speed Error on Mean: 0.008297
+Speed Median: 0.477034
+90th Percentile speed Mean: 0.842145
+90th Percentile speed Standard deviation: 0.376810
+90th Percentile speed Error on mean: 0.014191
+Dist per bend Mean: 0.072765
+Dist per bend Standard deviation: 0.049011
+Dist per bend Error on Mean: 0.001846
+Live worms: 705
+Dead worms: 0
+Total worms: 705
+Live ratio: 1.000000
+Dead ratio: 0.000000
+Live-to-dead ratio: inf
+Dead-to-live ratio: 0.000000
+Area Mean: 2.019574
+Area Standard Deviation: 0.579381
+Area Error on Mean: 0.021821
+Round ratio Mean: 0.316154
+Round ratio Standard deviation: 0.289565
+Round ratio Error on mean: 0.010906
+Eccentricity Mean: 0.929568
+Eccentricity Standard deviation: 0.052245
+Eccentricity Error on mean: 0.001968
+
+
+---------------------------------
+Stats for region: 22
+---------------------------------
+
+
+-------------------------------
+
+Total particles: 311
+
+-------------------------------
+
+BPM Mean: 50.64309
+BPM Standard deviation: 88.20962
+BPM Error on Mean: 5.00191
+BPM Median: 0.00000
+Bends in movie Mean: 0.37982
+Bends in movie Standard deviation: 0.66157
+Bends in movie Error on Mean: 0.03751
+Bends in movie Median: 0.00000
+Speed Mean: 0.483903
+Speed Standard deviation: 0.200882
+Speed Error on Mean: 0.011391
+Speed Median: 0.460128
+90th Percentile speed Mean: 0.805564
+90th Percentile speed Standard deviation: 0.354761
+90th Percentile speed Error on mean: 0.020117
+Dist per bend Mean: 0.069926
+Dist per bend Standard deviation: 0.049442
+Dist per bend Error on Mean: 0.002804
+Live worms: 311
+Dead worms: 0
+Total worms: 311
+Live ratio: 1.000000
+Dead ratio: 0.000000
+Live-to-dead ratio: inf
+Dead-to-live ratio: 0.000000
+Area Mean: 2.007717
+Area Standard Deviation: 0.523419
+Area Error on Mean: 0.029680
+Round ratio Mean: 0.315113
+Round ratio Standard deviation: 0.286978
+Round ratio Error on mean: 0.016273
+Eccentricity Mean: 0.930451
+Eccentricity Standard deviation: 0.051901
+Eccentricity Error on mean: 0.002943
+
+
+

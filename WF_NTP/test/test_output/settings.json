@@ -1,0 +1,79 @@
+{
+    "video_filename": "N2-2_2019-07-29-133409-0000-2.avi",
+    "start_frame": 0,
+    "limit_images_to": 9,
+    "fps": 20.0,
+    "px_to_mm": 0.04,
+    "darkfield": false,
+    "keep_paralyzed_method": false,
+    "std_px": 64,
+    "threshold": 9,
+    "opening": 1,
+    "closing": 3,
+    "prune_size": 0,
+    "skeletonize": true,
+    "do_full_prune": false,
+    "min_size": 25,
+    "max_size": 120,
+    "minimum_ecc": 0.93,
+    "use_average": true,
+    "lower": 0,
+    "upper": 100,
+    "Bends_max": 20.0,
+    "Speed_max": 0.035,
+    "extra_filter": false,
+    "cutoff_filter": false,
+    "max_dist_move": 10,
+    "min_track_length": 50,
+    "memory": 5,
+    "bend_threshold": 2.1,
+    "minimum_bends": 0.0,
+    "frames_to_estimate_velocity": 3,
+    "maximum_bpm": 0.5,
+    "maximum_velocity": 0.1,
+    "regions": {
+        "11": {
+            "x": [
+                651.6363636363635,
+                178.48257006151732,
+                707.6308954203689,
+                1533.5502392344495,
+                1768.7272727272727,
+                1379.5652768284347
+            ],
+            "y": [
+                240.7764866712232,
+                954.706766917293,
+                1733.0307587149691,
+                1668.6370471633627,
+                789.5228981544769,
+                288.37183868762804
+            ]
+        },
+        "22": {
+            "x": [
+                1998.3048530416947,
+                704.8311688311687,
+                251.27546138072444,
+                1558.7477785372519
+            ],
+            "y": [
+                361.16473000683504,
+                145.585782638414,
+                797.9220779220777,
+                982.7040328092958
+            ]
+        }
+    },
+    "save_as": "tmp_test_output",
+    "output_overlayed_images": 2,
+    "font_size": 8,
+    "scale_bar_size": 1.0,
+    "scale_bar_thickness": 7,
+    "max_plot_pixels": 2250000,
+    "Z_skip_images": 1,
+    "use_images": 100,
+    "use_around": 5,
+    "stop_after_example_output": false,
+    "stdout prefix": "[1]"
+}
