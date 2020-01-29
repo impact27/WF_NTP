@@ -976,7 +976,6 @@ def statistics(results, settings, mask=None):
         'n_moving': n_moving,
         'bpm_mean': bpm_mean,
         'bpm_std': bpm_std,
-        'bpm_std': bpm_std,
         'bpm_median': bpm_median,
         'bpm_mean_std': bpm_mean_std,
         'bends_in_movie_mean': bends_in_movie_mean,
