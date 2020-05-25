@@ -1,5 +1,5 @@
 # WF_NTP
-Wide-field nematode tracking platform v3.0
+Wide-field nematode tracking platform v3.3.3
 
 The WF_NTP is a platform for analyzing movement behaviour of C. elegans. It is licenced under Creative Commons by-nc-sa 4.0.
 
@@ -21,4 +21,4 @@ Please read all instructions in our Nature Protocols paper (add link).
 
 # Demos
 
-Demo-data, including the movie and the generated thresholding images and settings file, can be downloaded via https://doi.org/10.17863/CAM.46983.
+Demo-data, including the movie, the generated thresholding images and settings file, can be downloaded via https://doi.org/10.17863/CAM.46983.
