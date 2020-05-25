@@ -45,8 +45,8 @@ setup(name='WF_NTP',
           "trackpy>=0.2.4"
       ],
       scripts=[
-          'run_script/WF_NTP_app.py',
-          'run_script/WF_NTP_app',
+          'run_script/multiwormtracker_app.py',
+          'run_script/multiwormtracker_app',
       ],
       # test_suite='nose.collector',
       # tests_require=['nose', 'nose-cover3'],

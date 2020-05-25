@@ -203,7 +203,7 @@ class Video:
 def track_all_locations(video, settings, stdout_queue):
     """Track and get all locations."""
     def get_Z_brightness(zi):
-        if settings["keep_paralised_method"]:
+        if settings["keep_paralyzed_method"]:
             return find_Z_with_paralyzed(video, settings, *zi)
         else:
             return find_Z(video, settings, *zi)
@@ -391,6 +391,7 @@ def extract_data(track, settings):
     if len(regions) > 1:
         reg_paths = make_region_paths(regions)
 
+    drop_list = []
     for p in particle_dataframe.index:
         # Define signals
         t = T[P == p]
@@ -433,7 +434,7 @@ def extract_data(track, settings):
         # Bends
         bend_times = extract_bends(x, smooth_y, settings)
         if len(bend_times) < settings["minimum_bends"]:
-            particle_dataframe.drop(p)
+            drop_list.append(p)
             continue
         bl = form_bend_array(bend_times, T[P == p])
         if len(bl) > 0:
@@ -466,11 +467,11 @@ def extract_data(track, settings):
 
         particle_dataframe.at[p, "bends"] = bl
 
-    # Sort out low bend number particles
-    for index in particle_dataframe.index:
-        if (particle_dataframe.at[index, "bends"][-1]
-                < settings["minimum_bends"]):
-            particle_dataframe.drop(index)
+        # Sort out low bend number particles
+        if bl[-1] < settings["minimum_bends"]:
+            drop_list.append(p)
+
+    particle_dataframe.drop(drop_list, inplace=True)
 
     # BPM
     fps = settings["fps"]
@@ -524,13 +525,11 @@ def extract_data(track, settings):
 
     # Cut off-tool for boundaries (spurious worms)
     if settings["extra_filter"]:
-        extra_filter_spurious_worms = 0
-        for index in particle_dataframe.index:
-            if (particle_dataframe.at[index, "BPM"] > settings["Bends_max"]
-                    and (particle_dataframe.at[index, "Speed"]
-                         < settings["Speed_max"])):
-                particle_dataframe.drop(index)
-                extra_filter_spurious_worms += 1
+        mask = (
+            (particle_dataframe.loc[:, "BPM"] > settings["Bends_max"]) &
+            (particle_dataframe.loc[:, "Speed"] < settings["Speed_max"]))
+        extra_filter_spurious_worms = mask.sum()
+        particle_dataframe = particle_dataframe.loc[~mask]
     else:
         extra_filter_spurious_worms = None
 
