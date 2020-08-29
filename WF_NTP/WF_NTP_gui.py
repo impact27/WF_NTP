@@ -561,7 +561,7 @@ class AddJob(tk.Toplevel):
         methodframe = tk.Frame(locate_frame)
         method_label = tk.LabelFrame(methodframe, text="Method")
         method = ttk.Combobox(method_label, values=(
-            'Keep Paralyzed', 'Z-filtering'), state='readonly')
+            'Z-filtering', 'Keep Paralyzed'), state='readonly')
         std_px_label = tk.LabelFrame(methodframe, text="Std pixels")
         std_px = tk.Entry(std_px_label, width=15)
         threshold_label = tk.LabelFrame(
