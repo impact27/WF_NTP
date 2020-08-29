@@ -17,7 +17,7 @@ The tests are run with `pytest`. You can install pytest with `pip install pytest
 
 # Overview
 The WF_NTP software runs in python and only requires an installation of python and integrated libraries.
-Please read all instructions in our Nature Protocols paper (add link).
+Please read all instructions in our Nature Protocols paper https://doi.org/10.1038/s41596-020-0321-9.
 
 # Demos
 
